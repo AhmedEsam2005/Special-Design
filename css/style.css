@@ -590,7 +590,6 @@ a{
     background-color: #fff;
     padding:20px;
     font-size: 22px;
-    height: 210px;
 }
 .testimonials .ts-box:not(:last-of-type) {
     margin-right:1%;
