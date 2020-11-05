@@ -732,6 +732,41 @@ a{
     }
 }
 /* End Contact*/
+/*Start Footer*/
+.footer {
+    background: #333;
+    margin: 0;
+    overflow: hidden;
+}
+.footer .info-footer p {
+    color:#fff;
+    font-weight: bold;
+    padding:5px;
+}
+.footer .info-footer .copy,
+.footer .info-footer .design {
+    width:45%;
+}
+.footer .info-footer .design {
+    float: right;
+}
+.footer .info-footer .copy {
+    float:left;
+}
+@media (max-width:774px) {
+    .footer .info-footer .copy,
+    .footer .info-footer .design {
+        width:100%;
+        text-align: center;
+    }
+    .footer .info-footer .design {
+        float: none;
+    }
+    .footer .info-footer .copy {
+        float:none;
+    } 
+}
+/*End Footer*/
 /* Start Medi Query*/
 @media (min-width: 576px) {/* Smaill Device Phone*/
     .container {
