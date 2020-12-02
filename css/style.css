@@ -1,288 +1,784 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset = "utf-8" />
-        <link href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Roboto+Condensed:ital@1&display=swap" rel="stylesheet">  
-        <link href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,600;1,300;1,500&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/normlize.css">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/style.css">
-        <title>Mono HTML5 Template</title>
-    </head>
-    <body>
-        <!-- Start Navigation bullet -->
-        <div class="nav-bullets">
-            <div class="bullets" data-section = '.about'>
-                <div class="tooltip">About Us</div>
-            </div>
-            <div class="bullets" data-section = '.skills'>
-                <div class="tooltip">Skills</div>
-            </div>
-            <div class="bullets" data-section = '.gallery'>
-                <div class="tooltip">Our Gallery</div>
-            </div>
-            <div class="bullets" data-section = '.timeline'>
-                <div class="tooltip">TimeLine</div>
-            </div> 
-            <div class="bullets" data-section = '.feature'>
-                <div class="tooltip">Feature</div>
-            </div>  
-            <div class="bullets" data-section = '.testimonials'>
-                <div class="tooltip">Testimonals</div>
-            </div>      
-            <div class="bullets" data-section = '.contact'>
-                <div class="tooltip">Contact Us</div>
-            </div>     
-        </div>
-        <!-- End Navigation bullet -->
-        <!-- Start Landing Page -->
-        <div class="landing-page">
-            <div class="overlay"></div>
-            <div class="container container-nav-sm">
-                <div class="header-area">
-                    <div class="brand">Special</div>
-                    <div class="links-container">
-                        <ul class="menu ">
-                            <li><a href = "#" class = 'active' data-section=".about">About</a></li>
-                            <li><a href = "#" data-section=".skills">Skills</a></li>
-                            <li><a href = "#" data-section=".gallery">Our Gallery</a></li>
-                            <li><a href = "#" data-section=".timeline">Timeline</a></li>
-                            <li><a href = "#" data-section=".feature">Our Feature</a></li>
-                            <li><a href = "#" data-section=".testimonials">Testimonials</a></li>
-                            <li><a href = "#" data-section=".contact">Contact Us</a></li>
-                        </ul>
-                        <button class="toggle-menu"><i class = 'fa fa-bars'></i></button>
-                    </div>
-                </div>
-            </div>
-            <!-- Start Slide Heading -->
-            <div class="slide-container">
-                <div class="slide-intro">
-                    <h1 class = 'active'>Hello World In Special Design</h1>
-                    <h1>Responsive design for all screens</h1>
-                    <h1>Search engine friendly</h1>
-                    <h1>Lightweight design</h1>
-                </div>
-            </div>
-        </div>
-        <!-- End Landing Page -->
-        <!-- Start About Page -->
-        <div class="container">
-            <div class="about">
-                <div class="box-info">
-                    <h2>About Us</h2>
-                        <p class="pra">
-                            This is an example of a distinctive personal website that can be used to display a person’s CV and is distinguished by that it is based on clean codes, which gives speed in performance and is compatible with search engines and is responsive to all screens
-                        </p>
-                </div>
-                <figure>
-                    <img src="images/team.jpg" alt="This Is Our Team">
-                    <figcaption>This Is ALl Language Programmer</figcaption>
-                </figure>
-            </div>
-        </div>
-        <!-- End About Page -->
-        <!-- Start Skills -->
-        <div class="skills">
-            <div class="container">
-                <h2>Skills</h2>
-                <div class="skills-box">
-                    <div class="skill-name">HTML</div>
-                    <div class="skill-progress">
-                        <span data-progress = '80%'></span>
-                    </div>
-                </div>
-                <div class="skills-box">
-                    <div class="skill-name">CSS</div>
-                    <div class="skill-progress">
-                        <span data-progress = '90%'></span>
-                    </div>
-                </div>
-                <div class="skills-box">
-                    <div class="skill-name">JavaScript</div>
-                    <div class="skill-progress">
-                        <span data-progress = '70%'></span>
-                    </div>
-                </div>
-                <div class="skills-box">
-                    <div class="skill-name">PHP</div>
-                    <div class="skill-progress">
-                        <span data-progress = '90%'></span>
-                    </div>
-                </div>
-                <div class="skills-box">
-                    <div class="skill-name">Paython</div>
-                    <div class="skill-progress">
-                        <span data-progress = '70%'></span>
-                    </div>
-                </div>
-                <div class="skills-box">
-                    <div class="skill-name">MySql</div>
-                    <div class="skill-progress">
-                        <span data-progress = '60%'></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Skills -->
-        <!-- Start Gallery -->
-        <div class="gallery">
-            <div class="container">
-                <h2>Our Gallery</h2>
-                <div class="images-box">
-                    <img src="images/1.jpg" alt="Image #1" >
-                    <img src="images/2.jpg" alt="Image #2" >
-                    <img src="images/3.jpg" alt="Image #3">
-                    <img src="images/4.jpg" alt="Image #4">
-                    <img src="images/5.jpg" alt="Image #5">
-                    <img src="images/6.jpg" alt="">
-                    <img src="images/7.jpg" alt="">
-                    <img src="images/8.jpg" alt="">
-                    <img src="images/9.jpg" alt="">
-                    <img src="images/10.jpg" alt="">
-                </div>
-            </div>
-        </div>
-        <!-- End Gallery -->
-        <!-- Start Time Line -->
-        <div class="timeline">
-            <div class="container">
-                <div class="timeline-content">
-                    <div class="year">2017</div>
-                    <div class="left">
-                        <div class="content">
-                            <h3>Learn Html</h3>
-                            <P>
-                                This Is Mother For Language You Used To Bulid Website
-                            </p>
-                        </div>
-                    </div>
-                    <div class="clear"></div>
-                    <div class="right">
-                        <div class="content">
-                            <h3>Learn CSS</h3>
-                            <p>This Is Language Vary Important I Learned It In 2017 Iam Profissonal in Css</p>
-                        </div>
-                    </div>
-                    <div class="clear"></div>
-                    <div class="year">2019</div>
-                    <div class="left">
-                        <div class="content">
-                            <h3>First Website</h3>
-                            <p>First Websitr Builded In 2018 It Was Fast And Clean</p>
-                        </div>
-                    </div>
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #26282b;
+    color: #fff
+}
+:root {
+    --maincolor-- : #4d3ab7;
+}
+a{
+    color:#fff;
+    text-decoration: none;
+}
+/* Start Nav Bullets*/
+.nav-bullets{
+    position: fixed;
+    right:0;
+    top:50%;
+    transform:translateY(-50%);
+    width:40px;
+    z-index:1000000;
+}
+.nav-bullets .bullets {
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: 3px solid var(--maincolor--);
+    margin: 20px auto;
+    cursor: pointer;
+    border-radius: 50%;
+    position: relative;
+}
+.nav-bullets .bullets:hover .tooltip {
+    display:block;
+}
+.nav-bullets .bullets .tooltip{
+    width: 120px;
+    background: var(--maincolor--);
+    position: absolute;
+    right: 32px;
+    padding: 4px 10px;
+    top: -10px;
+    text-align: center;
+    cursor: default;
+    pointer-events: none;
+    display:none;
+    color:#fff;
+}
+.nav-bullets .bullets .tooltip::before{
+    content: '';
+    border-style: solid;
+    border-width: 10px;
+    border-color: transparent transparent transparent var(--maincolor--);
+    height:0;
+    width: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right:-20px;
+}
+/* End Nav Bullets*/
+/*Start Lnding Page*/
+.landing-page {
+    width:100%;
+    min-height: 100vh;
+    background-image: url("../images/2.jpg");
+    background-size: cover;
+}
+.landing-page .overlay {
+    width:100%;
+    height: 100%;
+    background-color: #0000006b;
+    z-index:1;
+    position: absolute;
+}
+.landing-page .header-area {
+    display : flex;
+    width: 100%;
+    padding: 15px;
+    position: relative;
+    color: #fff;
+    z-index: 2;
+}
+.landing-page .header-area .brand {
+    width: 300px;
+    font-size: 25px;
+    color : var(--maincolor--);
+}
+.landing-page .header-area .links-container {
+    width:100%;
+    text-align: right;
+}
+.landing-page .header-area .menu {
+    list-style: none;
+    margin-left:0;
+    margin-right: 50px;
+}
+.landing-page .header-area .menu li {
+    transition: .5s;
+    display: inline-block;
+    line-height: 30px;
+}
+.landing-page .header-area .menu li a
+{
+    margin-left: 10px;
+    color:#fff;
+    text-decoration: none;
+    transition: .5s;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.landing-page .header-area .menu li a:hover,
+.landing-page .header-area .menu li a.active {
+    color:var(--maincolor--)
+}
+.landing-page .header-area .toggle-menu{
+    background: none;
+    border: 0;
+    width: 40px;
+    display: none;
+    font-size: 25px;
+    color:#fff;
+    cursor:pointer;
+    position: relative;
+}
+.landing-page .header-area .toggle-menu.menu-active::before {
+    content: '';
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent #fff transparent;
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.landing-page .header-area .toggle-menu:focus{
+    outline: none;
+}
 
-                </div>
-            </div>
-        </div>
-        <!-- End Time Line -->
-        <!-- Start Feature -->
-        <div class="feature">
-            <h2>Our Feature</h2>
-            <div class="container">
-                <div class="fade-box">
-                    <h4>HTML5</h4>
-                    <img src="images/img_icon1.png" alt="" class = 'no-pop'>
-                    <p>This IS Language For Build Website Struture</p>
-                </div>
-                <div class="fade-box">
-                    <h4>CSS3</h4>
-                    <img src="images/image_icon2.png" alt=""class = 'no-pop'>
-                    <p>To Add Color And Animation In The Website</p>
-                </div>
-                <div class="fade-box">
-                    <h4>JavaScript</h4>
-                    <img src="images/image_icon3.png" alt=""class = 'no-pop'>
-                    <p>This Is Fantastic Language It Can Control In The Element And The Browser</p>
-                </div>
-                <div class="fade-box">
-                    <h4>BootStrap</h4>
-                   <img src="images/image_icon4.png" alt=""class = 'no-pop'>
-                    <p>This Is FrameWork It Is Easy And Fast And Clean And Responsive </p>
-                </div>
-                <div class="fade-box">
-                    <h4>jQuery</h4>
-                   <img src="images/image_icon5.png" alt=""class = 'no-pop'>
-                    <p>It Is The Library From JavaScript But Is Fast In The Work And Easy</p>
-                </div>
-                <div class="fade-box">
-                    <h4>FontAwsome</h4>
-                   <img src="images/image_icon6.png" alt=""class = 'no-pop'>
-                    <p>This Is Library For Fonts You Can With This Library Git Alot Of Icons</p>
-                </div>
-                <div class="clear"></div> 
-            </div>
-        </div>
-        <!-- End Feature -->
-        <!-- Start Testimonals -->
-        <div class="testimonials">
-            <div class="container">
-                <h2>Testimonials</h2>
-                <div class="ts-box">
-                    <p>The site is fast to download and is compatible with all screens. I had no problem asking for modifications. Really, thank you very much
-                    </p>
-                    <div class="person-info">
-                        <img src="http://placehold.it/80/EEE" alt="">
-                        <h4>Ahmed Esam</h4>
-                        <p>CEO At Company</p>
-                    </div>
-                </div>
-                <div class="ts-box">
-                    <p>Good implementation of projects professionally without any mistakes and SEO friendly
-                    </p>
-                    <div class="person-info">
-                        <img src="http://placehold.it/80/DDD" alt="">
-                        <h4>Mohamed Ameen</h4>
-                        <p>Graphic designer
-                        </p>
-                    </div>
-                </div>
-                <div class="ts-box">
-                    <p>The performance is excellent. I am really happy to deal with you. You are someone who excels in your work
-                    </p>
-                    <div class="person-info">
-                        <img src="http://placehold.it/80/AAA" alt="">
-                        <h4>Osama Ibrahim</h4>
-                        <p>Content Manger</p>
-                    </div>
-                </div>
-            </div>
-            <div class="clear"></div>
+.landing-page .slide-container {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.landing-page .slide-intro {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    margin: auto;
+}
+.landing-page .slide-intro h1 {
+    color: var(--maincolor--);
+    font-size: 45px;
+    font-weight: bold;
+    margin: auto;
+    padding: 5px;
+    display: none;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+@media(max-width:767px) {
+    .landing-page .slide-intro h1 {
+        font-size: 30px;
 
-        </div>
-        <!-- end Testimonals -->
-        <!-- Start Contact -->
-        <div class="contact">
-            <div class="overlay"></div>
-            <div class="container">
-                <h2>Contact Us</h2>
-                <form>
-                    <div class="left">
-                        <input type="text" name="UserName" placeholder="Your Name">
-                        <input type="tel" name="Phone" placeholder="Your Phone">
-                        <input type="email" name="email" placeholder="Your Email">
-                        <input type="text" name="subject" placeholder="Your Subject">
-                    </div>
-                    <div class="right">
-                        <textarea name="msg" placeholder="Your Message"></textarea>
-                        <input type="submit" value="Send">
-                    </div>
-                </form>
-            </div>
-        </div>
-        <!--End Contact-->
-        <!-- Start Footer -->
-        <div class="footer">
-            <div class="container">
-                <div class="info-footer">
-                    <p class="copy">© 2018 Mono - Responsive  HTML5 Template. All Rights Reserved. 
-                    </p>
-                </div>
-            </div>
-        </div>
-        <!-- Start Footer -->
-        <script src="js/jQuery.js"></script>
-        <script src = 'js/main.js'></script>
-    </body>
-</html>
+    }
+}
+.landing-page .slide-intro h1.active {
+    display: block;
+    opacity: 1;
+}
+@media(max-width: 991px) {
+    .header-area .toggle-menu {
+        display:inline-block !important;
+    }
+    .header-area .menu {
+        display:none;
+    }
+    .header-area .menu.open {
+        left: 0;
+        background-color: #fff;
+        display: block;
+        position: absolute;
+        top: 50px;
+        width: 100%;
+        text-align: left;
+        border-radius: 5px;
+    }
+    .header-area .menu.open li  {
+        display: block;
+        padding: 5px;
+        font-weight: bold;
+    }
+    .header-area .menu.open li a {
+        color:var(--maincolor--);
+    }
+}
+/*End Lnding Page*/
+/* Start About*/
+.container {
+    width : 1170px;
+    padding-right:10px;
+    padding-left: 10px;
+    margin: auto;
+}
+.about {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+}
+.about .box-info {
+    flex: 1;
+    padding: 30px;
+}
+.about .box-info h2 {
+    font-weight: bold;
+    font-size:30px ;
+    color: var(--maincolor--);
+    margin: 0 0 0 10px;
+}
+.about .box-info p {
+    line-height: 1.8;
+    color:#676363;
+    font-size: 17px;
+}
+.about figure {
+    flex : 1;
+    text-align: center;
+}
+.about figure  img {
+    width:400px;
+    border-radius: 3px;
+}
+@media(max-width: 991px) {
+    .about {
+        display: block;
+    }
+    .about .box-info  {
+        flex:none;
+    }
+    .about figure {
+        flex:none;
+    }
+}
+/*End About*/
+/*Start Skills*/
+.skills {
+    padding-top : 20px;
+    padding-bottom : 20px;
+    background-color: #2e3135;
+    ;
+}
+.skills h2 {
+    font-weight: bold;
+    font-size: 30px;
+    color:var(--maincolor--);
+    margin : 50px 0;
+    text-align: center;
+}
+.skills .skills-box {
+    background-color: #2e3135;
+    display: flex;
+    padding : 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border: 1px solid #fff;
+}
+.skills .skills-box .skill-name {
+    font-weight: bold;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    width: 140px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.skills .skills-box .skill-progress {
+    background-color: #ddd;
+    height : 30px;
+    width: calc(100% - 110px);
+    text-align: center;
+    background-color: #f6f6f6;
+    border-radius: 6px;
+    position: relative;
+}
+.skills .skills-box .skill-progress span {
+    position: absolute;
+    top:0;
+    left:0;
+    width:0%;
+    height: 100%;
+    background-color: var(--maincolor--);
+    border-radius: 6px;
+    transition: all 2s;
+}
+/*End Skills*/
+/* Start Gallery*/
+.gallery {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.gallery h2{
+    font-weight: bold;
+    font-size: 30px;
+    color:var(--maincolor--);
+    margin : 50px 0;
+    text-align: center;    
+}
+.gallery .images-box {
+    text-align: center;
+}
+.gallery .images-box img { 
+    width: 200px;
+    padding: 3px;
+    background-color: #F6F6F6;
+    border: 1px solid #CCC;
+    margin: 5px;
+    cursor: pointer;
+}
+.popup-overlay {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    z-index:3;
+}
+.popup-box {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #333;
+    padding: 20px;
+    z-index:4;
+}
+.popup-box h2{
+    padding: 20px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.popup-box img {
+    max-width: 100%;
+}
+.popup-box .close { 
+    width:45px;
+    height: 45px;
+    color:#fff;
+    background-color: var(--maincolor--);
+    border-radius: 50%;
+    line-height: 45px;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    cursor: pointer;
+}
+/* End Gallery*/
+/* Start timeline*/
+.timeline {
+    width:100%;
+    background-color: #26282b;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.timeline .timeline-content {
+    position: relative;
+    overflow: hidden;
+    
+}
+.timeline .timeline-content::before {
+    width:2px;
+    content: "";
+    height:100%;
+    background-color: var(--maincolor--);
+    position: absolute;
+    left:50%;
+    margin-left:-1px;
+    top:0;
+}
+.timeline .timeline-content .year {
+    margin:20px auto;
+    padding:2px 5px;
+    border-radius:4px;
+    color:#fff;
+    background-color: var(--maincolor--);
+    width:50px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+.timeline .timeline-content .left,
+.timeline .timeline-content .right {
+    width: calc(50% - 25px);
+    margin-bottom: 40px;
+    position: relative;
+}
+.timeline .timeline-content .left {
+    float: left;
+}
+.timeline .timeline-content .right {
+    float: right;
+}
+.timeline .timeline-content .left::before,
+.timeline .timeline-content .right::before {
+    width: 14px;
+    height: 14px;
+    background-color: #fff;
+    border: 3px solid var(--maincolor--);
+    position: absolute;
+    top:20px;
+    border-radius: 50%;
+    content: '';
+}
+.timeline .timeline-content .left::before {
+    right: -35px;
+}
+.timeline .timeline-content .right::before {
+    left: -35px;
+}
+.timeline .timeline-content .content {
+    padding:20px;
+    background-color: #272a2d ;
+    border: 1px solid #ccc; 
+
+}
+.timeline .timeline-content .content h3{
+    color:var(--maincolor--);
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 0 10px;
+}
+.timeline .timeline-content .content p{
+    color:#666;
+    line-height: 1.6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0;
+}
+.clear {
+    clear:both;
+}
+.timeline .timeline-content .left .content::before {
+    content: '';
+    border-style: solid;
+    border-width: 10px;
+    border-color: transparent transparent transparent #fff;
+    height:0;
+    width: 0;
+    position: absolute;
+    right: -20px;
+    top: 20px;
+}
+.timeline .timeline-content .right .content::before {
+    content: '';
+    border-style: solid;
+    border-width: 10px;
+    border-color: transparent #fff transparent transparent;
+    height:0;
+    width: 0;
+    position: absolute;
+    left: -20px;
+    top: 20px;
+}
+@media(max-width:575px) {
+    .timeline .timeline-content .left,
+    .timeline .timeline-content .right {
+        width: 90%;
+        margin-bottom: 20px;
+        position: relative;
+    }
+    .timeline .timeline-content .left {
+        float: none;
+        margin: 10px auto;
+
+    }
+    .timeline .timeline-content .right {
+        float: none;
+        margin: 10px auto;
+    }
+    .timeline .timeline-content .left .content::before {
+        border:0;
+        width:0;
+    }
+    .timeline .timeline-content .right .content::before {
+        border: 0;
+        width:0;
+    }
+    .timeline .timeline-content .right::before,
+    .timeline .timeline-content .left::before {
+        width:0;
+        border:0;
+    }
+}
+/*End Timeline*/
+/* Start Feature*/
+.feature {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.feature h2 {
+    font-weight: bold;
+    font-size: 30px;
+    color:var(--maincolor--);
+    margin : 50px 0;
+    text-align: center;    
+}
+.feature .fade-box{
+    width: calc(100% /3);
+    float:left;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.feature .fade-box img{
+    margin: 20px auto;
+    border-radius: 50%;
+    width:96px;
+}
+.feature .fade-box h4{
+    font-size: 22px;
+    margin: 15px 0 40px;
+    position: relative;
+    font-weight:bold;
+}
+.feature .fade-box h4::before {
+    content:'';
+    width:40px;
+    position: absolute;
+    height:4px;
+    background-color: var(--maincolor--);
+    left:50%;
+    margin-left:-20px;
+    bottom: -22px;
+}
+.feature .fade-box p {
+    padding: 0px 25px 15px 25px;
+    color: #FFF;
+    font-family: arial,thoma;
+    line-height: 1.4;
+    font-weight: bold;
+}
+@media(max-width:575px) {
+    .feature .fade-box{
+        width: calc(75% /2 );
+        float:left;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+}
+/*End Feature*/
+/* Start Testimoinals*/
+.testimonials {
+    position: relative;
+    padding-top:60px;
+    padding-bottom:60px;
+}
+.testimonials::before {
+    content:'';
+    width:50%;
+    position:absolute;
+    left:0;
+    top:0;
+    background-color: var(--maincolor--);
+    height:100%;
+}
+.testimonials::after {
+    content:'';
+    width:50%;
+    position:absolute;
+    right:0;
+    top:0;
+    background-color: #333;
+    height:100%;
+}
+.testimonials h2{
+    font-weight: bold;
+    font-size: 30px;
+    margin : 50px 0;
+    text-align: center;
+    color:#fff;
+    position: relative;
+    z-index: 2;
+    text-align: left;
+}
+.testimonials .ts-box {
+    z-index: 2;
+    position: relative;
+    width:calc(98% / 3);
+    float: left;
+    background-color: #fff;
+    padding:20px;
+    font-size: 22px;
+}
+.testimonials .ts-box:not(:last-of-type) {
+    margin-right:1%;
+}
+.testimonials .ts-box > p {
+    margin: 0 0 15px;
+    line-height: 1.5;
+    font-size: 15px;
+    color:#444;
+    font-style: italic;
+}
+.testimonials .ts-box .person-info {
+    overflow: hidden;
+}
+.testimonials .ts-box .person-info img {
+    float:left;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+.testimonials .ts-box .person-info h4 {
+    margin:14px 10px 5px;
+
+}
+.testimonials .ts-box .person-info p {
+    color:#444;
+    font-weight: bold;
+    margin:0;
+    font-size: 15px;
+}
+@media(max-width:575px) {
+    .testimonials .ts-box {
+        z-index: 2;
+        position: relative;
+        width:80%;
+        background-color: #fff;
+        padding:20px;
+        font-size: 22px;
+        margin:10px auto;
+    }   
+}
+/* end Testimoinals*/
+/* Start Contact*/
+.contact {
+    min-height:600px;
+    background:#26282b;
+    background-size: cover;
+    padding-top:80px;
+    padding-bottom: 80px;
+    position: relative;
+}
+.contact .container {
+    z-index:2000;
+    position: relative;
+}
+.contact h2 {
+    font-weight: bold;
+    font-size: 30px;
+    color:var(--maincolor--);
+    margin : 50px 0;
+    text-align: center;   
+}
+.contact form {
+    overflow: hidden;
+    max-width: 800px;
+    margin:auto;
+}
+.contact form .left {
+    width:49%;
+    float:left;
+}
+.contact form .right {
+    width:49%;
+    float:right;
+}
+.contact form input:not([type='submit']),
+.contact form textarea {
+    display:block;
+    width:100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgba(218, 218, 218, 0.19);
+    border: 0;
+}
+.contact form input:focus,
+.contact form textarea:focus {
+    outline: 1px solid var(--maincolor--);
+
+}
+.contact form input {
+    height:40px;
+}
+.contact form textarea {
+    height: 160px;
+}
+.contact form input[type = 'submit']{
+    padding: 10px;
+    width:100%;
+    background-color: var(--maincolor--);
+    border: transparent;
+    color:#fff;
+    cursor:pointer;
+}
+.contact form input:not([type='submit']):focus::-webkit-input-placeholder,
+.contact form textarea:focus::-webkit-input-placeholder{
+    opacity: 0;
+    transition: .3s;
+}
+@media(max-width:575px) {
+    .container {
+        max-width: 530px;
+    }
+    .contact form input[type = 'submit']{
+        padding: 10px;
+        width:90%;
+        background-color: var(--maincolor--);
+        border: transparent;
+        color:#fff;
+        cursor:pointer;
+    }
+    .contact form textarea {
+        height: 40px;
+    }
+    .contact form .left, 
+    .contact form .right {
+        width:100%;
+        float: none;
+    }
+    
+    .contact form input:not([type='submit']),.contact form textarea {
+        width:80%;
+    }
+}
+/* End Contact*/
+/*Start Footer*/
+.footer {
+    background: #333;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+
+}
+.footer .info-footer p {
+    color:#fff;
+    font-weight: bold;
+    padding:5px;
+}
+
+@media (max-width:774px) {
+    .footer .info-footer .copy,
+    .footer .info-footer .design {
+        width:100%;
+        text-align: center;
+    }
+    .footer .info-footer .copy {
+        float:none;
+    } 
+}
+/*End Footer*/
+/* Start Medi Query*/
+@media (min-width: 576px) {/* Smaill Device Phone*/
+    .container {
+        max-width: 520px;
+    }
+    .landing-page .container {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) {/*medim Device*/
+    .container {
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px) {/* Start Desktop Device*/
+    .container {
+        max-width: 960px;
+    }
+}
+@media (min-width: 1200px) {/*Start Large Screen*/
+    .container {
+        max-width: 1140px;
+    }
+}
+/*End Media Qurty*/
