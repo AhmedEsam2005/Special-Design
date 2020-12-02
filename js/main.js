@@ -1,28 +1,19 @@
-// Start Change Heading In 5second
-let myHeading        = Array.from(document.querySelectorAll(".slide-intro h1"));
-let currentHeading   = 1; 
-let change = setInterval(ChangeHeading,5000); 
-function ChangeHeading () {
 
-    // Remove Active
-    document.querySelectorAll(".slide-intro h1").forEach(heading => {
-        heading.classList.remove("active");
-    }); 
+$(document).ready(function () {
 
-    // Add Active To Current Heading
-    myHeading[currentHeading - 1].classList.add("active");
+    function ChangeActive() {
+        let AllHeading = Array.from($(".slide-intro h1"));
+        AllHeading.forEach(element => {
+            element.classList.remove("active");
+        });
+        AllHeading[Math.floor(Math.random() * AllHeading.length)].classList.add("active");
+        $(".slide-intro h1").hide();
+        $(".slide-intro .active").fadeIn(2000);
+        $(".slide-intro .active").css('display', 'block');
 
-    // Start Ancrement
-    currentHeading++;
-
-    // Start Of First Heading
-    if (currentHeading === myHeading.length + 1) {
-        currentHeading.value = 1;
-        myHeading[myHeading.length -1].classList.remove("active");
-        myHeading[0].classList.add("active");
-        clearInterval(change);
-    }
-}
+    } 
+    let ChangeHeading = setInterval(ChangeActive,3000);
+});
 function animateSkills () {
         //Select Skills
         let ourSkills = document.querySelector(".skills");
@@ -50,10 +41,10 @@ function animateSkills () {
         }
 }
 
+
 window.onscroll = function()  {
 
     animateSkills();
-
 };
 
 // create Popup With The Image
