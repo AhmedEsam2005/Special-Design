@@ -161,3 +161,10 @@ toggleMenu.onclick = () => {
     toggleMenu.classList.toggle('menu-active');
     tlinks.classList.toggle("open");
 };
+// Start Landing Div
+$(document).ready(function () {
+
+    $(".landing-overlay").fadeOut(1000);
+    $("body").css("overflow", "auto");
+
+});
